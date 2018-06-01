@@ -45,6 +45,9 @@ loop  do
      break
     end
   end
-def play (board)
 
+def play (board)
+  loop () do 
+    turn
+  end
 end
